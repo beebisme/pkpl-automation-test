@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_NIP tidak valid. Silahkan gunakan NIP yang terdaftar</name>
+   <tag></tag>
+   <elementGuidId>691b353c-3798-4338-ae5a-7bf2a6ff758a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#errorMessage</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='errorMessage']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;NIP tidak valid. Silahkan gunakan NIP yang terdaftar&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8c1abafe-036d-43c4-b219-4e13d911e2d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>errorMessage</value>
+      <webElementGuid>e2d3db07-dd85-4087-9a16-967bf165d64d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-danger</value>
+      <webElementGuid>c80eaa8d-da59-409c-8e24-40c65ce8b2bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>e6633c40-2687-4289-b46f-311852502f9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NIP tidak valid. Silahkan gunakan NIP yang terdaftar</value>
+      <webElementGuid>0d600489-475b-494b-9d0d-ff0526307076</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;errorMessage&quot;)</value>
+      <webElementGuid>9c3879d2-cd25-46f5-8dc7-41bc142093b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='errorMessage']</value>
+      <webElementGuid>914a9bab-d8cf-4fca-bf1a-626724de73b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign In'])[1]/following::div[1]</value>
+      <webElementGuid>e173631c-99eb-48bf-946d-a3dd85e11c65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NIP'])[1]/preceding::div[1]</value>
+      <webElementGuid>0489ec5b-ee8b-45fc-a36c-733c4b37a447</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::div[2]</value>
+      <webElementGuid>b88a7d1e-5cfc-4924-bdee-e22ba8c9b0a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='NIP tidak valid. Silahkan gunakan NIP yang terdaftar']/parent::*</value>
+      <webElementGuid>dda2ea32-0788-4977-ac45-e722f34b960f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div</value>
+      <webElementGuid>b834e7f4-7e9b-4c83-a59c-47cede3df11c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'errorMessage' and (text() = 'NIP tidak valid. Silahkan gunakan NIP yang terdaftar' or . = 'NIP tidak valid. Silahkan gunakan NIP yang terdaftar')]</value>
+      <webElementGuid>cc80b74e-4cb8-4dad-97ab-af41af4e52f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
