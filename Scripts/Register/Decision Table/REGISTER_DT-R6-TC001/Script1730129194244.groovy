@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost:5000/tjs/admin/register')
+
+WebUI.setText(findTestObject('Register/input_NIP_nip'), '12345678901234567')
+
+WebUI.setText(findTestObject('Register/input_Username_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Register/input_Password_password'), 'QIaGzQLQqqLay5EbJRYZAw==')
+
+WebUI.setEncryptedText(findTestObject('Register/input_Confirm Password_confirmPassword'), 'cI80961d2/Q=')
+
+WebUI.click(findTestObject('Register/button_Register'))
+
+WebUI.verifyElementPresent(findTestObject('Register/small_NIP harus berjumlah 18 digit'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Register/small_konfirmasi password tidak sama'), 0)
+
+WebUI.closeBrowser()
+
